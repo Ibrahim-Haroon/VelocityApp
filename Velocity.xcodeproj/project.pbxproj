@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA3510E02AEDBFC2009AC75B /* VelocityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510DF2AEDBFC2009AC75B /* VelocityApp.swift */; };
-		FA3510E22AEDBFC2009AC75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510E12AEDBFC2009AC75B /* ContentView.swift */; };
+		FA3510E22AEDBFC2009AC75B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510E12AEDBFC2009AC75B /* MainView.swift */; };
 		FA3510E42AEDBFC5009AC75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3510E32AEDBFC5009AC75B /* Assets.xcassets */; };
 		FA3510E72AEDBFC5009AC75B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3510E62AEDBFC5009AC75B /* Preview Assets.xcassets */; };
 		FA3510F12AEDBFC5009AC75B /* VelocityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510F02AEDBFC5009AC75B /* VelocityTests.swift */; };
@@ -18,6 +18,12 @@
 		FA35110E2AEDC5C7009AC75B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA35110D2AEDC5C7009AC75B /* FirebaseFirestore */; };
 		FA3511102AEDC5C7009AC75B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA35110F2AEDC5C7009AC75B /* FirebaseFirestoreSwift */; };
 		FA3511122AEDC742009AC75B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3511112AEDC742009AC75B /* GoogleService-Info.plist */; };
+		FA3511192AEDD671009AC75B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511182AEDD671009AC75B /* ProfileView.swift */; };
+		FA35111B2AEDD67F009AC75B /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35111A2AEDD67F009AC75B /* ToDoListView.swift */; };
+		FA35111D2AEDD68D009AC75B /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35111C2AEDD68D009AC75B /* NewItemView.swift */; };
+		FA35111F2AEDD697009AC75B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35111E2AEDD697009AC75B /* LoginView.swift */; };
+		FA3511212AEDD6A2009AC75B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511202AEDD6A2009AC75B /* RegisterView.swift */; };
+		FA3511232AEDD6B9009AC75B /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511222AEDD6B9009AC75B /* ToDoListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 /* Begin PBXFileReference section */
 		FA3510DC2AEDBFC2009AC75B /* Velocity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Velocity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3510DF2AEDBFC2009AC75B /* VelocityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityApp.swift; sourceTree = "<group>"; };
-		FA3510E12AEDBFC2009AC75B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA3510E12AEDBFC2009AC75B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FA3510E32AEDBFC5009AC75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3510E62AEDBFC5009AC75B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA3510EC2AEDBFC5009AC75B /* VelocityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +54,14 @@
 		FA3510F62AEDBFC5009AC75B /* VelocityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3510FA2AEDBFC5009AC75B /* VelocityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityUITests.swift; sourceTree = "<group>"; };
 		FA3510FC2AEDBFC5009AC75B /* VelocityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FA3511092AEDC3C8009AC75B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FA3511112AEDC742009AC75B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA3511172AEDD5B6009AC75B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA3511182AEDD671009AC75B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FA35111A2AEDD67F009AC75B /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		FA35111C2AEDD68D009AC75B /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		FA35111E2AEDD697009AC75B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA3511202AEDD6A2009AC75B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FA3511222AEDD6B9009AC75B /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 		FA3510D32AEDBFC2009AC75B = {
 			isa = PBXGroup;
 			children = (
+				FA3511172AEDD5B6009AC75B /* README.md */,
 				FA3510DE2AEDBFC2009AC75B /* Velocity */,
 				FA3510EF2AEDBFC5009AC75B /* VelocityTests */,
 				FA3510F92AEDBFC5009AC75B /* VelocityUITests */,
@@ -103,7 +116,6 @@
 		FA3510DE2AEDBFC2009AC75B /* Velocity */ = {
 			isa = PBXGroup;
 			children = (
-				FA3511092AEDC3C8009AC75B /* README.md */,
 				FA3511162AEDCA25009AC75B /* Other */,
 				FA3511152AEDCA16009AC75B /* Models */,
 				FA3511142AEDCA09009AC75B /* ViewModels */,
@@ -141,7 +153,13 @@
 		FA3511132AEDC9FE009AC75B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA3510E12AEDBFC2009AC75B /* ContentView.swift */,
+				FA3510E12AEDBFC2009AC75B /* MainView.swift */,
+				FA3511182AEDD671009AC75B /* ProfileView.swift */,
+				FA35111A2AEDD67F009AC75B /* ToDoListView.swift */,
+				FA35111C2AEDD68D009AC75B /* NewItemView.swift */,
+				FA35111E2AEDD697009AC75B /* LoginView.swift */,
+				FA3511202AEDD6A2009AC75B /* RegisterView.swift */,
+				FA3511222AEDD6B9009AC75B /* ToDoListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,8 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3510E22AEDBFC2009AC75B /* ContentView.swift in Sources */,
+				FA35111F2AEDD697009AC75B /* LoginView.swift in Sources */,
+				FA3510E22AEDBFC2009AC75B /* MainView.swift in Sources */,
+				FA3511192AEDD671009AC75B /* ProfileView.swift in Sources */,
+				FA3511212AEDD6A2009AC75B /* RegisterView.swift in Sources */,
+				FA35111B2AEDD67F009AC75B /* ToDoListView.swift in Sources */,
+				FA3511232AEDD6B9009AC75B /* ToDoListItemView.swift in Sources */,
 				FA3510E02AEDBFC2009AC75B /* VelocityApp.swift in Sources */,
+				FA35111D2AEDD68D009AC75B /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

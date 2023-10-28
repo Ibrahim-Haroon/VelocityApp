@@ -3,7 +3,7 @@ To do list app that utilizes ML to increase your productivity.
 
 ## Project Structure
 
-- /[README.md (Documentation)](Velocity/Other/README.md)
+- /[README (Documentation)](Velocity/Other/README.md)
 - /Velocity
     - /[Other](Velocity/Other/)
         - /[Assets (TODO: define)](Velocity/Other/Assets.xcassets/)
@@ -15,12 +15,12 @@ To do list app that utilizes ML to increase your productivity.
         - / [VelocityApp (TODO: define)](Velocity/Other/VelocityApp.swift)
         - / [GoogleService-Info (Firebase for Auth and Storage)](Velocity/Other/GoogleService-Info.plist)
         
-    - /[Models](Velcity/Models/)
+    - /[Models (represents core data types: user, Todo list items)](Velcity/Models/)
 
     - /[ViewModels (defines actions of buttons)](Velocity/ViewModels/)
 
     - /[Views (design buttons)](Velocity/Views/)
-        - / [ContentView (TODO: define)](Velocity/Views/ContentView.swift)
+        - / [MainView (View that user sees upon opening app)](Velocity/Views/MainView.swift)
 
     - /[Preview Content (TODO: define)](Velocity/Preview%20Content/)
         - / [Preview Assets](Velocity/Preview%20Content/Preview%20Assets.xcassets)
