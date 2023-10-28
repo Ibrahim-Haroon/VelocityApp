@@ -14,6 +14,10 @@
 		FA3510F12AEDBFC5009AC75B /* VelocityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510F02AEDBFC5009AC75B /* VelocityTests.swift */; };
 		FA3510FB2AEDBFC5009AC75B /* VelocityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510FA2AEDBFC5009AC75B /* VelocityUITests.swift */; };
 		FA3510FD2AEDBFC5009AC75B /* VelocityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3510FC2AEDBFC5009AC75B /* VelocityUITestsLaunchTests.swift */; };
+		FA35110C2AEDC5C7009AC75B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA35110B2AEDC5C7009AC75B /* FirebaseAuth */; };
+		FA35110E2AEDC5C7009AC75B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA35110D2AEDC5C7009AC75B /* FirebaseFirestore */; };
+		FA3511102AEDC5C7009AC75B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA35110F2AEDC5C7009AC75B /* FirebaseFirestoreSwift */; };
+		FA3511122AEDC742009AC75B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3511112AEDC742009AC75B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,7 @@
 		FA3510FA2AEDBFC5009AC75B /* VelocityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityUITests.swift; sourceTree = "<group>"; };
 		FA3510FC2AEDBFC5009AC75B /* VelocityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA3511092AEDC3C8009AC75B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA3511112AEDC742009AC75B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA35110C2AEDC5C7009AC75B /* FirebaseAuth in Frameworks */,
+				FA35110E2AEDC5C7009AC75B /* FirebaseFirestore in Frameworks */,
+				FA3511102AEDC5C7009AC75B /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +104,7 @@
 		FA3510DE2AEDBFC2009AC75B /* Velocity */ = {
 			isa = PBXGroup;
 			children = (
+				FA3511112AEDC742009AC75B /* GoogleService-Info.plist */,
 				FA3510DF2AEDBFC2009AC75B /* VelocityApp.swift */,
 				FA3510E12AEDBFC2009AC75B /* ContentView.swift */,
 				FA3510E32AEDBFC5009AC75B /* Assets.xcassets */,
@@ -145,6 +154,11 @@
 			dependencies = (
 			);
 			name = Velocity;
+			packageProductDependencies = (
+				FA35110B2AEDC5C7009AC75B /* FirebaseAuth */,
+				FA35110D2AEDC5C7009AC75B /* FirebaseFirestore */,
+				FA35110F2AEDC5C7009AC75B /* FirebaseFirestoreSwift */,
+			);
 			productName = Velocity;
 			productReference = FA3510DC2AEDBFC2009AC75B /* Velocity.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +231,9 @@
 				Base,
 			);
 			mainGroup = FA3510D32AEDBFC2009AC75B;
+			packageReferences = (
+				FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FA3510DD2AEDBFC2009AC75B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +252,7 @@
 			files = (
 				FA3510E72AEDBFC5009AC75B /* Preview Assets.xcassets in Resources */,
 				FA3510E42AEDBFC5009AC75B /* Assets.xcassets in Resources */,
+				FA3511122AEDC742009AC75B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +444,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Velocity/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Velocity ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +473,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Velocity/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Velocity ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -584,6 +604,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA35110B2AEDC5C7009AC75B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FA35110D2AEDC5C7009AC75B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FA35110F2AEDC5C7009AC75B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA3510D42AEDBFC2009AC75B /* Project object */;
 }
