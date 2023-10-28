@@ -44,6 +44,7 @@
 		FA3510F62AEDBFC5009AC75B /* VelocityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3510FA2AEDBFC5009AC75B /* VelocityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityUITests.swift; sourceTree = "<group>"; };
 		FA3510FC2AEDBFC5009AC75B /* VelocityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA3511092AEDC3C8009AC75B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		FA3510D32AEDBFC2009AC75B = {
 			isa = PBXGroup;
 			children = (
+				FA3511092AEDC3C8009AC75B /* README.md */,
 				FA3510DE2AEDBFC2009AC75B /* Velocity */,
 				FA3510EF2AEDBFC5009AC75B /* VelocityTests */,
 				FA3510F92AEDBFC5009AC75B /* VelocityUITests */,
