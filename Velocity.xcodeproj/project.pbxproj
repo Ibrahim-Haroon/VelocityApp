@@ -103,6 +103,7 @@
 		FA3510DE2AEDBFC2009AC75B /* Velocity */ = {
 			isa = PBXGroup;
 			children = (
+				FA3511092AEDC3C8009AC75B /* README.md */,
 				FA3511162AEDCA25009AC75B /* Other */,
 				FA3511152AEDCA16009AC75B /* Models */,
 				FA3511142AEDCA09009AC75B /* ViewModels */,
@@ -162,7 +163,6 @@
 		FA3511162AEDCA25009AC75B /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FA3511092AEDC3C8009AC75B /* README.md */,
 				FA3510E32AEDBFC5009AC75B /* Assets.xcassets */,
 				FA3510DF2AEDBFC2009AC75B /* VelocityApp.swift */,
 				FA3511112AEDC742009AC75B /* GoogleService-Info.plist */,
