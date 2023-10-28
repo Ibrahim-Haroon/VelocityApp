@@ -21,6 +21,12 @@ To do list app that utilizes ML to increase your productivity.
 
     - /[Views (design buttons)](Velocity/Views/)
         - / [MainView (View that user sees upon opening app)](Velocity/Views/MainView.swift)
+        - / [ProfileView (View that user sees upon opening app)](Velocity/Views/ProfileView.swift)
+        - / [ToDoListView (View that user sees upon opening app)](Velocity/Views/ToDoListView.swift)
+        - / [NewItemView (View that user sees upon opening app)](Velocity/Views/NewItemView.swift)
+        - / [LoginView (View that user sees upon opening app)](Velocity/Views/LoginView.swift)
+        - / [RegisterView (View that user sees upon opening app)](Velocity/Views/RegisterView.swift)
+        - / [ToDoListItemView (View that user sees upon opening app)](Velocity/Views/ToDoListItemView.swift)
 
     - /[Preview Content (TODO: define)](Velocity/Preview%20Content/)
         - / [Preview Assets](Velocity/Preview%20Content/Preview%20Assets.xcassets)
