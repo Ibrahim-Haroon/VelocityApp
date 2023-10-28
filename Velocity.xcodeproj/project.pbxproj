@@ -83,7 +83,6 @@
 		FA3510D32AEDBFC2009AC75B = {
 			isa = PBXGroup;
 			children = (
-				FA3511092AEDC3C8009AC75B /* README.md */,
 				FA3510DE2AEDBFC2009AC75B /* Velocity */,
 				FA3510EF2AEDBFC5009AC75B /* VelocityTests */,
 				FA3510F92AEDBFC5009AC75B /* VelocityUITests */,
@@ -104,10 +103,10 @@
 		FA3510DE2AEDBFC2009AC75B /* Velocity */ = {
 			isa = PBXGroup;
 			children = (
-				FA3511112AEDC742009AC75B /* GoogleService-Info.plist */,
-				FA3510DF2AEDBFC2009AC75B /* VelocityApp.swift */,
-				FA3510E12AEDBFC2009AC75B /* ContentView.swift */,
-				FA3510E32AEDBFC5009AC75B /* Assets.xcassets */,
+				FA3511162AEDCA25009AC75B /* Other */,
+				FA3511152AEDCA16009AC75B /* Models */,
+				FA3511142AEDCA09009AC75B /* ViewModels */,
+				FA3511132AEDC9FE009AC75B /* Views */,
 				FA3510E52AEDBFC5009AC75B /* Preview Content */,
 			);
 			path = Velocity;
@@ -136,6 +135,39 @@
 				FA3510FC2AEDBFC5009AC75B /* VelocityUITestsLaunchTests.swift */,
 			);
 			path = VelocityUITests;
+			sourceTree = "<group>";
+		};
+		FA3511132AEDC9FE009AC75B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA3510E12AEDBFC2009AC75B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA3511142AEDCA09009AC75B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA3511152AEDCA16009AC75B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA3511162AEDCA25009AC75B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FA3511092AEDC3C8009AC75B /* README.md */,
+				FA3510E32AEDBFC5009AC75B /* Assets.xcassets */,
+				FA3510DF2AEDBFC2009AC75B /* VelocityApp.swift */,
+				FA3511112AEDC742009AC75B /* GoogleService-Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
