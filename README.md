@@ -22,8 +22,8 @@ To do list app that utilizes ML to increase your productivity.
     - /[Views (design buttons)](Velocity/Views/)
         - / [ContentView (TODO: define)](Velocity/Views/ContentView.swift)
 
-    - /[Preview Content (TODO: define)](Velocity/Preivew%20Content/)
-        - / [Preview Assets](Velocity/Preivew%20Content/Preview%20Assets.xcassets)
+    - /[Preview Content (TODO: define)](Velocity/Preview%20Content/)
+        - / [Preview Assets](Velocity/Preview%20Content/Preview%20Assets.xcassets)
 
 - /VelocityTests (unit tests for backend)
     - / [VelocityTests (TODO: define)](VelocityTests/VelocityTests.swift)
