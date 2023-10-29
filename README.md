@@ -20,6 +20,13 @@ To do list app that utilizes ML to increase your productivity.
         - /[ToDoListItem (TODO: define)](Velcity/Models/ToDoListItem.swift)
 
     - /[ViewModels (defines actions of buttons)](Velocity/ViewModels/)
+        - /[MainViewViewModel](Velocity/ViewModels/MainViewViewModel.swift)
+        - /[ProfileViewViewModel](Velocity/ViewModels/ProfileViewViewModel.swift)
+        - /[ToDoListViewViewModel](Velocity/ViewModels/ToDoListViewViewModel.swift)
+        - /[NewItemViewViewModel](Velocity/ViewModels/NewItemViewViewModel.swift)
+        - /[LoginViewViewModel](Velocity/ViewModels/LoginViewViewModel.swift)
+        - /[RegisterViewViewModel](Velocity/ViewModels/RegisterViewViewModel.swift)
+        - /[ToDoListItemViewViewModel](Velocity/ViewModels/ToDoListItemViewViewModel.swift)
 
     - /[Views (design buttons)](Velocity/Views/)
         - / [MainView (View that user sees upon opening app)](Velocity/Views/MainView.swift)
