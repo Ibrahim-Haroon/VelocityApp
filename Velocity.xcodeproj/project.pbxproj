@@ -24,6 +24,8 @@
 		FA35111F2AEDD697009AC75B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35111E2AEDD697009AC75B /* LoginView.swift */; };
 		FA3511212AEDD6A2009AC75B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511202AEDD6A2009AC75B /* RegisterView.swift */; };
 		FA3511232AEDD6B9009AC75B /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511222AEDD6B9009AC75B /* ToDoListItemView.swift */; };
+		FA3511252AEDD96C009AC75B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511242AEDD96C009AC75B /* User.swift */; };
+		FA3511272AEDD975009AC75B /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511262AEDD975009AC75B /* ToDoListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		FA35111E2AEDD697009AC75B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FA3511202AEDD6A2009AC75B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		FA3511222AEDD6B9009AC75B /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
+		FA3511242AEDD96C009AC75B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA3511262AEDD975009AC75B /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 		FA3511152AEDCA16009AC75B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA3511242AEDD96C009AC75B /* User.swift */,
+				FA3511262AEDD975009AC75B /* ToDoListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -332,8 +338,10 @@
 				FA3511192AEDD671009AC75B /* ProfileView.swift in Sources */,
 				FA3511212AEDD6A2009AC75B /* RegisterView.swift in Sources */,
 				FA35111B2AEDD67F009AC75B /* ToDoListView.swift in Sources */,
+				FA3511252AEDD96C009AC75B /* User.swift in Sources */,
 				FA3511232AEDD6B9009AC75B /* ToDoListItemView.swift in Sources */,
 				FA3510E02AEDBFC2009AC75B /* VelocityApp.swift in Sources */,
+				FA3511272AEDD975009AC75B /* ToDoListItem.swift in Sources */,
 				FA35111D2AEDD68D009AC75B /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,8 @@ To do list app that utilizes ML to increase your productivity.
         - / [GoogleService-Info (Firebase for Auth and Storage)](Velocity/Other/GoogleService-Info.plist)
         
     - /[Models (represents core data types: user, Todo list items)](Velcity/Models/)
+        - /[User (TODO: define)](Velcity/Models/User.swift)
+        - /[ToDoListItem (TODO: define)](Velcity/Models/ToDoListItem.swift)
 
     - /[ViewModels (defines actions of buttons)](Velocity/ViewModels/)
 
