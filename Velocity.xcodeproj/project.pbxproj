@@ -33,6 +33,8 @@
 		FA3511312AEDDB58009AC75B /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511302AEDDB58009AC75B /* LoginViewViewModel.swift */; };
 		FA3511332AEDDB71009AC75B /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511322AEDDB71009AC75B /* RegisterViewViewModel.swift */; };
 		FA3511352AEDDB84009AC75B /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511342AEDDB84009AC75B /* ToDoListItemViewViewModel.swift */; };
+		FA3511372AEEE1BB009AC75B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511362AEEE1BB009AC75B /* HeaderView.swift */; };
+		FA3511392AEEE93B009AC75B /* VButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511382AEEE93B009AC75B /* VButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		FA3511302AEDDB58009AC75B /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		FA3511322AEDDB71009AC75B /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		FA3511342AEDDB84009AC75B /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		FA3511362AEEE1BB009AC75B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA3511382AEEE93B009AC75B /* VButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,8 @@
 				FA35111E2AEDD697009AC75B /* LoginView.swift */,
 				FA3511202AEDD6A2009AC75B /* RegisterView.swift */,
 				FA3511222AEDD6B9009AC75B /* ToDoListItemView.swift */,
+				FA3511362AEEE1BB009AC75B /* HeaderView.swift */,
+				FA3511382AEEE93B009AC75B /* VButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -355,10 +361,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA35111F2AEDD697009AC75B /* LoginView.swift in Sources */,
+				FA3511372AEEE1BB009AC75B /* HeaderView.swift in Sources */,
 				FA3510E22AEDBFC2009AC75B /* MainView.swift in Sources */,
 				FA3511332AEDDB71009AC75B /* RegisterViewViewModel.swift in Sources */,
 				FA3511292AEDDB22009AC75B /* MainViewViewModel.swift in Sources */,
 				FA35112B2AEDDB2D009AC75B /* ProjectViewViewModel.swift in Sources */,
+				FA3511392AEEE93B009AC75B /* VButton.swift in Sources */,
 				FA3511192AEDD671009AC75B /* ProfileView.swift in Sources */,
 				FA3511212AEDD6A2009AC75B /* RegisterView.swift in Sources */,
 				FA35111B2AEDD67F009AC75B /* ToDoListView.swift in Sources */,
