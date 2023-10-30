@@ -7,25 +7,31 @@
 
 import SwiftUI
 
-struct LoginView: View {
-    @State var email: String = "";
-    @State var password: String = "";
+struct LoginView: View {   
+    @StateObject var viewModel = LoginViewViewModel()
     
     var body: some View {
         NavigationView {
             VStack {
                 // Header
                 HeaderView(title: "Velocity", titleSize: 50, subtitle: "Conquer your tasks", subtitleSize: 30, backgroundColor: .black)
-                
+
                 // Login Form
-                Form {
-                    TextField("Email Address", text: $email)
+                Form {                    
+                    if (!viewModel.errorMessage.isEmpty) {
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(Color.red)
+                    }
+                    
+                    TextField("Email Address", text: $viewModel.email)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
-                    SecureField("Password", text: $password)
+                        .autocapitalization(.none)
+                    
+                    SecureField("Password", text: $viewModel.password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
                     VButton(buttonText: "Login", backgroundColor: .blue) {
-                        // Attempt login
+                        viewModel.login()
                     }
                 }
                 
