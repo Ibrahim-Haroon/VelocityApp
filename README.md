@@ -14,6 +14,7 @@ To do list app that utilizes ML to increase your productivity.
             - /[Contents (TODO: define)](Velocity/Other/Assets.xcassets/AccentColor.colorset/Contents.json)
         - / [VelocityApp (TODO: define)](Velocity/Other/VelocityApp.swift)
         - / [GoogleService-Info (Firebase for Auth and Storage)](Velocity/Other/GoogleService-Info.plist)
+        - / [Extensions (Contains containables such as converting user to json)](Velocity/Other/Extensions.swift)
         
     - /[Models (represents core data types: user, Todo list items)](Velcity/Models/)
         - /[User (TODO: define)](Velcity/Models/User.swift)
@@ -36,9 +37,11 @@ To do list app that utilizes ML to increase your productivity.
         - / [LoginView (View that user sees when trying to login)](Velocity/Views/LoginView.swift)
         - / [RegisterView (View that user sees when creating an account)](Velocity/Views/RegisterView.swift)
         - / [ToDoListItemView (View for editing a task)](Velocity/Views/ToDoListItemView.swift)
+        - / [Header (Generic class for reusable header)](Velocity/Views/Header.swift)
+        - / [VButton (Generic button to reuse in various views)](Velocity/Views/VButton.swift)
 
     - /[Preview Content (TODO: define)](Velocity/Preview%20Content/)
-        - / [Preview Assets](Velocity/Preview%20Content/Preview%20Assets.xcassets)
+        - / [Preview Assets (TODO: define)](Velocity/Preview%20Content/Preview%20Assets.xcassets)
 
 - /VelocityTests (unit tests for backend)
     - / [VelocityTests (TODO: define)](VelocityTests/VelocityTests.swift)

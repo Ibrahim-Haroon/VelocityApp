@@ -13,7 +13,7 @@ struct VButton: View {
     let action: () -> Void;
     var body: some View {
         Button {
-            // Attempt login
+            action()
         } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
@@ -22,9 +22,10 @@ struct VButton: View {
                 Text(buttonText)
                     .foregroundColor(Color.white)
                     .bold()
-                
             }
-        }    }
+        }
+        .padding()
+    }
 }
 
 #Preview {
