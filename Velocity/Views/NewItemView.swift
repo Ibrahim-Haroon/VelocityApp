@@ -5,11 +5,22 @@
 //  Created by Ibrahim Haroon on 10/28/23.
 //
 
+import FirebaseFirestoreSwift
 import SwiftUI
 
 struct NewItemView: View {
-    @StateObject var viewModel = NewItemViewViewModel()
+    @StateObject var viewModel: NewItemViewViewModel
     @Binding var newItemPresented: Bool
+    
+    
+    init(newItemPresented: Bool) {
+        self._newItemPresented
+    }
+    
+    init(userId: String) {
+        self._viewModel = StateObject(
+        wrappedValue: NewItemViewViewModel())
+    }
     
     var body: some View {
         VStack {

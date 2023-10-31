@@ -10,15 +10,21 @@ import FirebaseFirestore
 import Foundation
 
 class NewItemViewViewModel: ObservableObject {
-    static let secondsInADay: TimeInterval = 24 * 60 * 60
+    private let secondsInADay: TimeInterval = 24 * 60 * 60
     @Published var title: String = ""
     @Published var dueDate: Date =  Date()
     @Published var difficulty: Double = 0
     @Published var showAlert: Bool = false
-    
+    // var listView: ToDoListViewViewModel;
+
     init() {}
     
+//    init(listView: ToDoListViewViewModel) {
+//        self.listView = listView
+//    }
+    
     func save() {
+        // already checked in view but just in case
         guard canSave else {
             return
         }
@@ -29,7 +35,13 @@ class NewItemViewViewModel: ObservableObject {
         
         // Create model
         let newId = UUID().uuidString
-        let newItem = ToDoListItem(id: newId, title: title, difficulty: difficulty, dueDate: dueDate.timeIntervalSince1970, createDate: Date().timeIntervalSince1970, isDone: false)
+        let newItem = ToDoListItem(
+            id: newId,
+            title: title,
+            difficulty: difficulty,
+            dueDate: dueDate.timeIntervalSince1970,
+            createDate: Date().timeIntervalSince1970,
+            isDone: false)
         
         // Save model
         let db = Firestore.firestore()
@@ -38,6 +50,9 @@ class NewItemViewViewModel: ObservableObject {
             .collection("TODOs")
             .document(newId)
             .setData(newItem.asDictionary())
+        
+        // self.listView.incrementNumTasksCompleted()
+        
         return
     }
     
@@ -46,7 +61,7 @@ class NewItemViewViewModel: ObservableObject {
             return false;
         }
         
-        guard dueDate >= Date().addingTimeInterval(-NewItemViewViewModel.secondsInADay) else {
+        guard dueDate >= Date().addingTimeInterval(-self.secondsInADay) else {
             return false
         }
         

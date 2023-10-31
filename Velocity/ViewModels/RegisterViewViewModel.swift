@@ -14,6 +14,7 @@ class RegisterViewViewModel: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""
     @Published var errorMessage: String = ""
+    @Published var numTasksCompleted: Int = 0
     
     init() {}
     
@@ -32,7 +33,7 @@ class RegisterViewViewModel: ObservableObject {
     }
     
     private func insertUserRecord(id: String) {
-        let newUser = User(id: id, name: fullName, email: email, joined: Date().timeIntervalSince1970)
+        let newUser = User(id: id, name: fullName, email: email, joined: Date().timeIntervalSince1970, numTasksCompleted: numTasksCompleted)
         
         let db = Firestore.firestore()
         
