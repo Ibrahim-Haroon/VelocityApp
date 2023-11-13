@@ -7,6 +7,7 @@
 
 import FirebaseAuth
 import Foundation
+import PythonKit
 
 class MainViewViewModel: ObservableObject {
     @Published var currentUserId: String = ""
@@ -21,6 +22,12 @@ class MainViewViewModel: ObservableObject {
         }
     }
     
+//    let sys = Python.import("sys")
+//    sys.path.append("/Users/ibrahimharoon/Documents/Personal_Projects/Swift/Velocity/Velocity/Other")
+//    
+//    let example = Python.import("ml_model")
+//    example.print_hello_world()
+//    
     public var isSignedIn: Bool {
         return Auth.auth().currentUser != nil
     }
