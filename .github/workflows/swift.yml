@@ -24,6 +24,11 @@ jobs:
     
     - name: Checkout Repository
       uses: actions/checkout@v3
+
+    - name: List Available Simulators
+      run: |
+        xcrun simctl list devices
+
     
     # - name: Install Dependencies
     #   run: |
