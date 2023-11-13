@@ -1,5 +1,8 @@
 #!usr/bin/env python
 
 
-if __name__ == "__main__":
+def print_hello_word() -> None:
     print("hello world")
+
+if __name__ == "__main__":
+    print_hello_word()

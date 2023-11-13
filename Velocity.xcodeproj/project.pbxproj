@@ -37,6 +37,7 @@
 		FA3511392AEEE93B009AC75B /* VButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3511382AEEE93B009AC75B /* VButton.swift */; };
 		FA35113B2AEF385F009AC75B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35113A2AEF385F009AC75B /* Extensions.swift */; };
 		FA7E66372B01D6E5004171CC /* ml_model.py in Resources */ = {isa = PBXBuildFile; fileRef = FA7E66362B01D6E5004171CC /* ml_model.py */; };
+		FA7E663A2B01D825004171CC /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA7E66392B01D825004171CC /* PythonKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 				FA35110C2AEDC5C7009AC75B /* FirebaseAuth in Frameworks */,
 				FA35110E2AEDC5C7009AC75B /* FirebaseFirestore in Frameworks */,
 				FA3511102AEDC5C7009AC75B /* FirebaseFirestoreSwift in Frameworks */,
+				FA7E663A2B01D825004171CC /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +249,7 @@
 				FA35110B2AEDC5C7009AC75B /* FirebaseAuth */,
 				FA35110D2AEDC5C7009AC75B /* FirebaseFirestore */,
 				FA35110F2AEDC5C7009AC75B /* FirebaseFirestoreSwift */,
+				FA7E66392B01D825004171CC /* PythonKit */,
 			);
 			productName = Velocity;
 			productReference = FA3510DC2AEDBFC2009AC75B /* Velocity.app */;
@@ -322,6 +325,7 @@
 			mainGroup = FA3510D32AEDBFC2009AC75B;
 			packageReferences = (
 				FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FA7E66382B01D825004171CC /* XCRemoteSwiftPackageReference "PythonKit" */,
 			);
 			productRefGroup = FA3510DD2AEDBFC2009AC75B /* Products */;
 			projectDirPath = "";
@@ -722,6 +726,14 @@
 				minimumVersion = 10.16.0;
 			};
 		};
+		FA7E66382B01D825004171CC /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -739,6 +751,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FA35110A2AEDC5C7009AC75B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		FA7E66392B01D825004171CC /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA7E66382B01D825004171CC /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
