@@ -35,7 +35,7 @@ jobs:
 
     - name: Run Tests
       run: |
-        xcodebuild test -project Velocity.xcodeproj -scheme Velocity -destination 'platform=iOS Simulator,OS=17.0,name=iPhone 15'
+        xcodebuild test -project Velocity.xcodeproj -scheme Velocity -destination 'platform=iOS Simulator,OS=17.0,name= iOS Simulator Device'
 
   # deploy:
   #   runs-on: macos-latest
