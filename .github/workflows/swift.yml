@@ -24,27 +24,8 @@ jobs:
     
     - name: Checkout Repository
       uses: actions/checkout@v3
-    
-    # - name: terminal
-    #   run: |
-    #     xcrun simctl list runtimes
 
-    # - name: Build
-    #   run: |
-    #     xcodebuild clean build -project Velocity.xcodeproj -scheme Velocity -destination 'platform=iOS Simulator,OS=17.0,name=iPhone 15'
-    #     xcodebuild test -project Velocity.xcodeproj -scheme Velocity -destination 'platform=iOS Simulator,OS=16.2,name=iPhone 14 Pro'
+    # currently no tests are run
     - name: Run Tests
       run: |
-        xcodebuild build -workspace "Velocity.xcworkspace" -scheme "Velocity" CODE_SIGN_ INDENTITY-"" CODE_SIGNING_REQUIRED-NO CODE_SIGNING_ALLOWED-NO
-
-
-  # deploy:
-  #   runs-on: macos-latest
-
-  #   needs: build
-
-  #   steps:
-  #   - name: Deploy to App Store
-  #     run: |
-  #       # Add your deployment script here
-  #       # Example: fastlane deliver
+         xcrun simctl list runtimes
