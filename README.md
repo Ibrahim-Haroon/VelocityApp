@@ -16,6 +16,7 @@ To do list app that utilizes ML to increase your productivity.
         - / [GoogleService-Info (Firebase for Auth and Storage)](Velocity/Other/GoogleService-Info.plist)
         - / [Extensions (Contains containables such as converting user to json)](Velocity/Other/Extensions.swift)
         - / [ml_model (Contains python scripts for ml models and nlp to sort taks)](Velocity/Other/ml_model.py)
+        - / [training dataset (Contains dataset to train regression model)](Velocity/Other/training.csv)
         
     - /[Models (represents core data types: user, Todo list items)](Velcity/Models/)
         - /[User (TODO: define)](Velcity/Models/User.swift)
