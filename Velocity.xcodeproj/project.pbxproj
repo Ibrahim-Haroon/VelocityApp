@@ -38,7 +38,7 @@
 		FA35113B2AEF385F009AC75B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35113A2AEF385F009AC75B /* Extensions.swift */; };
 		FA7E66372B01D6E5004171CC /* ml_model.py in Resources */ = {isa = PBXBuildFile; fileRef = FA7E66362B01D6E5004171CC /* ml_model.py */; };
 		FA7E663A2B01D825004171CC /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA7E66392B01D825004171CC /* PythonKit */; };
-		FA9E904A2B25778A002FA304 /* traning.csv in Resources */ = {isa = PBXBuildFile; fileRef = FA9E90492B25778A002FA304 /* traning.csv */; };
+		FA9E904A2B25778A002FA304 /* training.csv in Resources */ = {isa = PBXBuildFile; fileRef = FA9E90492B25778A002FA304 /* training.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +90,7 @@
 		FA3511382AEEE93B009AC75B /* VButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VButton.swift; sourceTree = "<group>"; };
 		FA35113A2AEF385F009AC75B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FA7E66362B01D6E5004171CC /* ml_model.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = ml_model.py; sourceTree = "<group>"; };
-		FA9E90492B25778A002FA304 /* traning.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = traning.csv; sourceTree = "<group>"; };
+		FA9E90492B25778A002FA304 /* training.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = training.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +227,7 @@
 				FA3511112AEDC742009AC75B /* GoogleService-Info.plist */,
 				FA35113A2AEF385F009AC75B /* Extensions.swift */,
 				FA7E66362B01D6E5004171CC /* ml_model.py */,
-				FA9E90492B25778A002FA304 /* traning.csv */,
+				FA9E90492B25778A002FA304 /* training.csv */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -347,7 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3510E72AEDBFC5009AC75B /* Preview Assets.xcassets in Resources */,
-				FA9E904A2B25778A002FA304 /* traning.csv in Resources */,
+				FA9E904A2B25778A002FA304 /* training.csv in Resources */,
 				FA3510E42AEDBFC5009AC75B /* Assets.xcassets in Resources */,
 				FA3511122AEDC742009AC75B /* GoogleService-Info.plist in Resources */,
 				FA7E66372B01D6E5004171CC /* ml_model.py in Resources */,
