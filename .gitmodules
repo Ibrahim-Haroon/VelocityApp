@@ -1,3 +1,6 @@
-[submodule "/Users/ibrahimharoon/Documents/Personal_Projects/Swift/Velocity/Velocity/Other/AI_model"]
-	path = /Users/ibrahimharoon/Documents/Personal_Projects/Swift/Velocity/Velocity/Other/AI_model
+[submodule "Velocity/Velocity/Other/AI_model"]
+	path = Velocity/Velocity/Other/AI_model
+	url = https://github.com/Ibrahim-Haroon/Velocity_AI_Model.git
+[submodule "Velocity/Other/AI_model"]
+	path = Velocity/Other/AI_model
 	url = https://github.com/Ibrahim-Haroon/Velocity_AI_Model.git
