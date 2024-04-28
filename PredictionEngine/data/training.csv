@@ -141,7 +141,7 @@ Write a letter to a family member in another country, 5, 20
 Try a new type of plant-based milk, 1, 5
 Write a short story, 60, 525600
 Take a jewelry making class, 15, 180
-Try a new type of dance, like salsa or tango, 5, 60
+Try a new type of dance like salsa or tango, 5, 60
 Join a local swing dance workshop, 15, 90
 Assemble new desk, 5, 120
 Learn to play a strategy board game, 5, 180
@@ -197,7 +197,7 @@ Creating a simple spreadsheet, 0.5, 2
 Cook a simple meal, 5, 60
 Go to a local library and read a new book, 15, 120
 Attend a local jazz music workshop, 15, 180
-Cleaning a public space (e.g., a park), 10, 180
+Cleaning a public space (e.g. a park), 10, 180
 Teach my dog to do a flip, 0, 60
 Creating a detailed project plan for a business, 30, 300
 Washing a single dish, 0.5, 2
@@ -482,7 +482,7 @@ Attend a local theater production, 120, 180
 Conducting a usability study for a product, 10, 60
 Fold laundry, 1, 5
 Attend a local jazz music festival, 30, 180
-Attend a live performance (concert, play, etc.), 15, 300
+Attend a live performance (concert or play or etc.), 15, 300
 Pray asr, 5, 10
 Plan a visit to a science center, 30, 180
 Unpacking groceries, 1, 10
